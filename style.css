@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  background: center ;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px !important;
+}
+
+
+.jumbotron {
+  height: 400px;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd39l2hkdp2esp1.cloudfront.net%2Fimg%2Fphoto%2F164564%2F164564_00_2x.jpg%3F20190131222648&f=1&nofb=1") no-repeat center/cover;
+}
+
+.jumbotron h1 {
+  font-family: lobster;
+  text-shadow: 3px 3px 1px #00a700,
+  -3px 3px 1px #00a700,
+  3px -3px 1px #00a700,
+  -3px -3px 1px #00a700
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  height: 300px;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
+
+footer {
+  height: 55px;
+}
+
+
+
+#icons img {
+  height: 25px;
+  background-color: #fff;
+  border-radius: 3.5px;
+}
+
+img[alt="twitter"] {
+  border: 1.7px solid #000;;
+}

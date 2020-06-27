@@ -1,22 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="my.css">
-    <title></title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+  <title>Veggie recipes</title>
+</head>
+<body>
+  <header class="bg-success">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand text-light" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" tabindex="-1" aria-disabled="false">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src ="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  <div class="d-flex flex-column justify-content-center text-center jumbotron jumbotron-fluid mb-0">
+    <div class="container text-light">
+      <h1 class="display-1 pt-5">Delicious Veggie Recipes</h1>
+    </div>
+  </div>
+
+  <main class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <h2>Cuisines</h2>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cuisine</th>
+                <th scope="col">Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Italian</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>American</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Korean</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Thai</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Caribbean</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Chinese</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Latin american</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Spanish</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>French</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Japanese</td>
+                <td><a href="">link</a></td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td><a href="">More here</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="card bg-light mb-3">
+            <h5 class="mt-2 text-center card-title">Vegan Sweedish Meatballs</h5>  
+            <video type="video/mp4" src="./media/veganSwedishMeatballs.mp4" controls></video>
+          </div>
+          <div class="card bg-light mb-3">
+            <h5 class="mt-2 text-center card-title">Vegan Sweedish Meatballs</h5>  
+            <video type="video/mp4" src="./media/veganSwedishMeatballs.mp4" controls></video>
+          </div>
+
+          
+        </div>
+        <div class="col-lg-6 mb-3">
+          <h2>Going vegetarian?</h2>
+          <h5 class="text-center card-title">Lorem ipsum dolor sit amet.</h5>
+          <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos! Nemo id reprehenderit quos, voluptates officiis fuga sapiente libero sequi cupiditate atque, excepturi eos repellat error. Maxime cupiditate numquam accusantium dignissimos natus, non doloribus.</p>
+          <iframe src="https://www.youtube.com/embed/TANssbBdgrA?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos! Nemo id reprehenderit quos, voluptates officiis fuga sapiente libero sequi cupiditate atque, excepturi eos repellat error. Maxime cupiditate numquam accusantium dignissimos natus, non doloribus.</p>
+          <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos!.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          
+        </div>
+        <div class="col-lg-3 mb-3">
+          <h2>Culinary trends</h2>
+          
+          
+          <div class="card bg-light mb-3">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.PXpBuimG-e6VAPRG9AYKIAHaE7%26pid%3DApi&f=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          
+          <div class="card bg-light mb-3">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vegetariantimes.com%2F.image%2Ft_share%2FMTQ3MDM3MzQ5NjA2MzM2NDA3%2Fzi3000-shutterstock-buddha-bowl.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <div carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2017%2F03%2Fmain%2Fbeer-brushed-tofu-skewers-barley-1705p105.jpg%3Fitok%3DOdHLIfLx&f=1&nofb=1" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.webmd.com%2Fdtmcms%2Flive%2Fwebmd%2Fconsumer_assets%2Fsite_images%2Farticles%2Fhealth_tools%2Fvegetarian_diet_slideshow%2Fgetty_rm_photo_of_tofu_veggie_kebabs.jpg&f=1&nofb=1" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fwww.onegreenplanet.org%2Fwp-content%2Fuploads%2F2014%2F04%2Fburrito-bowl.jpg%3Ffit%3D1080%252C800%26ssl%3D1&f=1&nofb=1" alt="Third slide">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-success">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex">
+        <p class="text-light mt-3">&copy; Johan Ochoa</p>
+        <address class="mt-3 ml-3 text-light">123 Hello St. San Francisco. CA</address>
+      </div>
+      <div class="mt-3" id="icons">
+        <img src="./media/facebook.svg" alt="facebook">
+        <img src="./media/instagram.svg" alt="instagram">
+        <img src="./media/twitter.svg" alt="twitter">
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="./app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
 </html>
