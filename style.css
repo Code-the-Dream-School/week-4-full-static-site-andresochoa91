@@ -41,12 +41,13 @@ footer {
   height: 55px;
 }
 
-#icons img {
+svg {
   height: 25px;
+  width: 25px;
   background-color: #fff;
   border-radius: 3.5px;
 }
 
-img[alt="twitter"] {
+#twitter {
   border: 1.5px solid #000;;
 }
