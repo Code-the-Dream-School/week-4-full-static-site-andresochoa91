@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+  <!-- For media elements -->
+  <link rel="stylesheet" href="./node_modules/mediaelement/build/mediaelementplayer.min.css">
+
   <title>Veggie recipes</title>
 </head>
 <body>
@@ -124,24 +127,43 @@
               </tr>
             </tbody>
           </table>
-          <div class="card bg-light mb-3">
-            <h5 class="mt-2 text-center card-title">Vegan Sweedish Meatballs</h5>  
-            <video type="video/mp4" src="./media/veganSwedishMeatballs.mp4" controls></video>
+          <h2 class="mt-5">Going vegetarian, healthy?</h2>
+          <iframe src="https://www.youtube.com/embed/TANssbBdgrA?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2017%2F03%2Fmain%2Fbeer-brushed-tofu-skewers-barley-1705p105.jpg%3Fitok%3DOdHLIfLx&f=1&nofb=1" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.webmd.com%2Fdtmcms%2Flive%2Fwebmd%2Fconsumer_assets%2Fsite_images%2Farticles%2Fhealth_tools%2Fvegetarian_diet_slideshow%2Fgetty_rm_photo_of_tofu_veggie_kebabs.jpg&f=1&nofb=1" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fwww.onegreenplanet.org%2Fwp-content%2Fuploads%2F2014%2F04%2Fburrito-bowl.jpg%3Ffit%3D1080%252C800%26ssl%3D1&f=1&nofb=1" alt="Third slide">
+              </div>
+            </div>
           </div>
-          <div class="card bg-light mb-3">
-            <h5 class="mt-2 text-center card-title">Vegan Sweedish Meatballs</h5>  
-            <video type="video/mp4" src="./media/veganSwedishMeatballs.mp4" controls></video>
-          </div>
-
+          
           
         </div>
         <div class="col-lg-6 mb-3">
-          <h2>Going vegetarian?</h2>
+          <h2>Vegetarianism can be fun!</h2>
           <h5 class="text-center card-title">Lorem ipsum dolor sit amet.</h5>
           <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos! Nemo id reprehenderit quos, voluptates officiis fuga sapiente libero sequi cupiditate atque, excepturi eos repellat error. Maxime cupiditate numquam accusantium dignissimos natus, non doloribus.</p>
-          <iframe src="https://www.youtube.com/embed/TANssbBdgrA?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos! Nemo id reprehenderit quos, voluptates officiis fuga sapiente libero sequi cupiditate atque, excepturi eos repellat error. Maxime cupiditate numquam accusantium dignissimos natus, non doloribus.</p>
+          <div class="mt-4 card bg-light mb-3">
+            <h5 class="mt-2 text-center card-title">Mini Calzone</h5>  
+            <video class="mx-auto" width="100%" height="300px">
+              <source src="./media/mini-calzone" type="video/mp4"> 
+              <track label="English" kind="subtitles" srclang="en" src="./captions/music.vtt" default> 
+            </video>
+          </div>
           <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro culpa dolorum soluta ut, sunt vero fugit quam eius omnis. Laboriosam error vero non omnis incidunt corporis provident veniam necessitatibus veritatis excepturi culpa qui accusamus, sed mollitia aperiam dignissimos possimus assumenda officiis esse consectetur quasi enim quos!.</p>
+          <div class="mt-4 card bg-light mb-3">
+            <h5 class="mt-2 text-center card-title">Vegan Sweedish Meatballs</h5>  
+            <video class="mx-auto" width="100%" height="300px">
+              <source src="./media/veganSwedishMeatballs" type="video/mp4">
+              <track label="English" kind="subtitles" srclang="en" src="./captions/music.vtt" default> 
+            </video>
+          </div>
           <a href="#" class="btn btn-primary">Go somewhere</a>
           
         </div>
@@ -166,17 +188,13 @@
               <a href="#">Read more</a>
             </div>
           </div>
-          <div carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2017%2F03%2Fmain%2Fbeer-brushed-tofu-skewers-barley-1705p105.jpg%3Fitok%3DOdHLIfLx&f=1&nofb=1" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.webmd.com%2Fdtmcms%2Flive%2Fwebmd%2Fconsumer_assets%2Fsite_images%2Farticles%2Fhealth_tools%2Fvegetarian_diet_slideshow%2Fgetty_rm_photo_of_tofu_veggie_kebabs.jpg&f=1&nofb=1" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fwww.onegreenplanet.org%2Fwp-content%2Fuploads%2F2014%2F04%2Fburrito-bowl.jpg%3Ffit%3D1080%252C800%26ssl%3D1&f=1&nofb=1" alt="Third slide">
-              </div>
+
+          <div class="card bg-light mb-3">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vegetariantimes.com%2F.image%2Ft_share%2FMTQ3MDM3MzQ5NjA2MzM2NDA3%2Fzi3000-shutterstock-buddha-bowl.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up.</p>
+              <a href="#">Read more</a>
             </div>
           </div>
           
@@ -200,14 +218,27 @@
     </div>
   </footer>
 
-  <script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-
+  
+  
   <script src="./app.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="./node_modules/mediaelement/build/mediaelement-and-player.min.js"></script>
+  
+
+
+<script>
+  $('video').mediaelementplayer({
+    features: ["playpause", "tracks", "progress", "volume", "fullscreen"],
+    startLanguage: "en"
+  });
+
+</script>
 </body>
 </html>
