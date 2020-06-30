@@ -5,7 +5,7 @@ $("video").mediaelementplayer({
 
 
 (function () {
-  let cuisines = ["Italian", "American", "Korean", "Thai", "Caribbean", "Chinese", "Latin American", "Spanish", "Italian", "Japanese"];
+  let cuisines = ["Italian", "American", "Korean", "Thai", "Middle Eastern", "Chinese", "Latin American", "Spanish", "Italian", "Japanese"];
   let cuisinesTable = "";
   
   for (let i = 0; i < cuisines.length; i++) {
