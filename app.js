@@ -1,3 +1,9 @@
+$("video").mediaelementplayer({
+  features: ["playpause", "progress", "tracks", "volume", "fullscreen"],
+  // startLanguage: "en"  /* bug */
+});
+
+
 (function () {
   let cuisines = ["Italian", "American", "Korean", "Thai", "Middle Eastern", "Chinese", "Latin American", "Spanish", "Italian", "Japanese"];
   let cuisinesTable = "";
