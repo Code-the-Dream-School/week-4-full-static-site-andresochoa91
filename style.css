@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  background: center ;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px !important;
+}
+
+
+.jumbotron {
+  height: 400px;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd39l2hkdp2esp1.cloudfront.net%2Fimg%2Fphoto%2F164564%2F164564_00_2x.jpg%3F20190131222648&f=1&nofb=1") no-repeat center/cover;
+}
+
+.jumbotron h1 {
+  font-family: lobster;
+  text-shadow: 3px 3px 1px #00a700,
+  -3px 3px 1px #00a700,
+  3px -3px 1px #00a700,
+  -3px -3px 1px #00a700
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+}
+
+footer {
+  height: 55px;
+}
+
+svg {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 3.5px;
+}
+
+#twitter {
+  border: 1.5px solid #000;;
+}
+
+@media (max-width: 500px) {
+  #icons {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+  }
+
+  #icons svg {
+    display: block;
+    margin-top: 5px;
+  }
+
+  #info1,
+  #info2 {
+    padding: 0 !important;
+  }
+
+  #info2 {
+    display: block;
+    margin: auto;
+  }
+
+  svg {
+    height: 35px;
+    width: 35px;
+  }
+}
